@@ -1,0 +1,732 @@
+<html>
+<head>
+	<title>Naos Template Documentation</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/shCore.css">
+	<link rel="stylesheet" href="css/shThemeDefault.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript" src="js/shCore.js"></script>
+	<script type="text/javascript" src="js/shBrushCss.js"></script>
+	<script type="text/javascript" src="js/shBrushXml.js"></script>
+	<script type="text/javascript">
+		
+		$(document).ready(function() {
+
+			$(".menu ul li a").click(function() {
+			$("html, body").animate({
+				scrollTop: $($(this).attr("href")).offset().top + "px"
+					}, {
+					duration: 600
+				});
+			return false;
+			});
+		});
+
+	</script>
+</head>
+<body>
+
+	<div class="menu">
+		<nav>
+			<ul>
+				<li>Customization</li>
+				<li><a href="#home">- Home</a></li>
+				<li><a href="#about">- About</a></li>
+				<li><a href="#services">- Services</a></li>
+				<li><a href="#clients">- Clients</a></li>
+				<li><a href="#team">- Team</a></li>
+				<li><a href="#portfolio">- Portfolio</a></li>
+				<li><a href="#contact">- Contact</a></li>
+			</ul>
+			<ul>
+				<li><a href="#icons">- Social Icons</a></li>
+			</ul>
+			<ul>
+				<li><a href="#credits">- Credits</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div id="content">
+		<div id="content-wraper">
+
+		<h1>Naos Template Documentation</h1>
+	
+	<div class="wrap">
+		<p>Thank you for purchasing this theme. If you have any questions that are beyond the scope of this help file, please feel free to email me.</p>
+		Created: 24/May/2013<br>
+		Email: admin@dekystudio.com
+	</div>
+
+	<h2>HTML Structure</h2>
+
+	<div id="home" class="wrap">
+		<h3>Home</h3> 
+		<pre class="brush: xml">
+		<!-- Home -->
+		<div id="home">
+			<div class="pattern">
+				<div class="header-wrapper">
+					<header>
+						<div class="container header">
+							<div class="logo">
+								<a href="index.html"><img src="images/logo.png" alt=""></a>
+							</div>
+							<nav>
+								<ul id="nav">
+									<li class="current"><a href="#home">Home</a></li>
+									<li><a href="#about">About</a></li>
+									<li><a href="#services">Services</a></li>
+									<li><a href="#team">Team</a></li>
+									<li><a href="#portfolio">Portfolio</a></li>
+									<li><a href="#contact">Contact</a></li>
+								</ul>
+							</nav>
+						</div>
+					</header>
+				</div>
+				<div class="container home">
+					<div class="sixteen columns welcome">
+						<ul id="quotes">
+							<li><h1><span>Naos</span><br>Simple & Beautifull<br> one page template</h1></li>
+							<li><h2>Responsive</h2><p>It looks <span>great</span> on mobile</p></li>
+							<li><h2>96 <span>Social Icons</span><br>Font <span>awesome</span><br>And Much <span>More!</span></h2></li>
+						</ul>
+					</div>
+					<br class="clear">
+				</div>
+			</div><!-- container -->
+		</div><!-- home -->
+		<!-- END Home --></pre>
+		
+	</div>
+		
+	<div id="about" class="wrap">
+		<h3>About</h3>
+		<pre class="brush: xml">
+		<!-- About -->
+		<div id="about">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="title black">
+						<h2>About us</h2><h3>What is this all about</h3>
+					</div>
+				</div>
+				<section>
+					<div class="six columns">
+						<div id="first-slider" class="flexslider">
+							<ul class="slides">
+								<li>
+									<img src="images/slider/1.jpg" alt="" />
+								</li>
+								<li>
+									<img src="images/slider/2.jpg" alt="" />
+								</li>
+								<li>
+									<img src="images/slider/3.jpg" alt="" />
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-by-one nine columns about">
+						<h3>About Naos</h3>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi</p>
+					</div>
+					<br class="clear">
+				</section>
+
+					<div class="seven columns">
+						<div class="skills">
+						<h3>Our Skills</h3>
+							<ul>
+								<li>
+									<h4>HTML5</h4>
+									<div class="meter">
+										<span style="width: 75%"><span></span></span>
+									</div>
+								</li>
+								<li>
+									<h4>CSS3</h4>
+									<div class="meter">
+										<span style="width: 85%"><span></span></span>
+									</div>
+								</li>
+								<li>
+									<h4>jQuery</h4>
+									<div class="meter">
+										<span style="width: 70%"><span></span></span>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="offset-by-one eight columns testimonials-wrap">
+						<div id="second-slider" class="flexslider-carusel">
+							<ul class="slides">
+								<li>
+									<div class="testimonials">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis laoreet libero ut rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec iaculis, turpis vel luctus laoreet, nisi lorem semper urna, in commodo orci nunc in tellus.</p>
+										<div class="arrow"></div>
+									</div>
+									<div class="author">
+										<img src="images/author-1.jpg" class="rounded" alt="">
+										<p><strong>Marissa Mayer</strong><br>CEO of Yahoo</p>
+									</div>
+								</li>
+
+								<li>
+									<div class="testimonials">
+										<p>Consectetur adipiscing elit aeneane lorem lipsum, condimentum ultrices consequat eu, vehicula mauris lipsum adipiscing lipsum aenean orci lorem Asequat. Lorem ipsum dolor lorem sit amet, consectetur adipiscing dolor.</p>
+										<div class="arrow"></div>
+									</div>
+									<div class="author">
+										<img src="images/author-2.jpg" class="rounded" alt="">
+										<p><strong>Mark Zuckerberg</strong><br> CEO of Facebook</p>
+									</div>
+								</li>
+
+								<li>
+									<div class="testimonials">
+										<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+										<div class="arrow"></div>
+									</div>
+									<div class="author">
+										<img src="images/author-3.jpg" class="rounded" alt="">
+										<p><strong>Steve Ballmer</strong><br>CEO of Microsoft</p>
+									</div>
+								</li>
+
+							</ul>
+						</div>
+						
+					</div>
+
+			</div><!-- container -->
+		</div><!-- about -->
+		<!-- END About -->
+		</pre>
+		<span class="subtitle">Changing slider images:</span>
+		<p>Naos use Flex Slider to display slider images. If you want to change them, simply upload your images in images/slider folder and link to them in index.html file. If you want to add more slides simply add more "li" tags. You can find more about Flex Slider customization on <a href="http://www.woothemes.com/flexslider/">their site</a>. Keep the same image width-height ratio in order to images display properly in the circle.</p>
+		<span class="subtitle">Testimonial images:</span>
+		<p>Testimonial images are located inside images folder. These images should also have the same with-height ratio in order to display properly.</p>
+	</div>
+
+	<div id="services" class="wrap">
+		<h3>Services</h3>
+		<pre class="brush: xml">
+		<!-- Services -->
+		<div id="services">
+			<div class="container">
+				<div class="sixteen columns">
+					<div class="title white">
+						<h2>What We Do</h2><h3>And How Do We Do It</h3>
+					</div>
+				</div>
+				<br class="clear">
+				<div class="four columns services">
+					<i class="icon-globe"></i>
+					<h3>Lorem Ipsum</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis laoreet libero ut rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+				</div>
+				<div class="four columns services">
+					<i class="icon-group"></i>
+					<h3>Ut wisi enim</h3>
+					<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+				</div>
+				<div class="four columns services">
+					<i class="icon-cog"></i>
+					<h3>Duis autem</h3>
+					<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio.</p>
+				</div>
+				<div class="four columns services">
+					<i class="icon-cloud"></i>
+					<h3>Nam liber</h3>
+					<p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum.</p>
+				</div>
+				<br class="clear">
+			</div><!-- container -->
+		</div><!-- services -->
+		<!-- END Services --></pre>
+		<span class="subtitle">Services icons:</span>
+		<p>This template use font awesome to display services icons. You can find full list of icons <a href="http://fortawesome.github.io/Font-Awesome/icons/">here</a>.</p>
+	</div>
+
+	<div id="clients" class="wrap">
+		<h3>Clients</h3>
+			<pre class="brush: xml">
+			<!-- Clients -->
+			<div id="clients">
+				<div class="container">
+					<div class="sixteen columns">
+						<div class="clients-title">
+							<h2>Our Clients</h2>
+						</div>
+					</div>
+					<div class="four columns clients"><a href="#"><img src="images/clients/1.png" class="scale-with-grid" alt=""></a></div>
+					<div class="four columns clients"><a href="#"><img src="images/clients/2.png" class="scale-with-grid" alt=""></a></div>
+					<div class="four columns clients"><a href="#"><img src="images/clients/3.png" class="scale-with-grid" alt=""></a></div>
+					<div class="four columns clients"><a href="#"><img src="images/clients/4.png" class="scale-with-grid" alt=""></a></div>
+					<br class="clear">
+				</div><!-- container -->
+			</div><!-- clients -->
+			<!-- END Clients --></pre>
+	</div>
+
+	<div id="team" class="wrap">
+		<h3>Team</h3>
+			<pre class="brush: xml">
+			<!-- Team -->
+			<div id="team">
+				<div class="container">
+					<section>
+						<div class="sixteen columns">
+							<div class="title black">
+								<h2>Meat the team</h2>
+								<h3>They make awesome things!</h3>
+							</div>
+						</div>
+						<br class="clear">
+						<div class="one-third column team">
+							<img src="images/1.jpg" class="scale-with-grid rounded" alt="">
+							<h3>Jane Doe</h3>
+							<span>Chief Executive Officer</span>
+							<ul class="team-social">
+								<li><a class="facebook" href="#"></a></li>
+								<li><a class="twitter" href="#"></a></li>
+								<li><a class="linkedin" href="#"></a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis laoreet libero ut rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec iaculis, turpis vel luctus laoreet, nisi lorem semper urna, in commodo orci nunc in tellus.</p>
+						</div>
+						<div class="one-third column team">
+							<img src="images/2.jpg" class="scale-with-grid rounded" alt="">
+							<h3>Jon doe</h3>
+							<span>Web Designer</span>
+							<ul class="team-social">
+								<li><a class="facebook" href="#"></a></li>
+								<li><a class="twitter" href="#"></a></li>
+								<li><a class="linkedin" href="#"></a></li>
+								<li><a class="dribble" href="#"></a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis laoreet libero ut rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec iaculis, turpis vel luctus laoreet, nisi lorem semper urna, in commodo orci nunc in tellus.</p>
+						</div>
+						<div class="one-third column team">
+							<img src="images/3.jpg" class="scale-with-grid rounded" alt="">
+							<h3>Jon doe</h3>
+							<span>Web Developer</span>
+							<ul class="team-social">
+								<li><a class="facebook" href="#"></a></li>
+								<li><a class="twitter" href="#"></a></li>
+								<li><a class="linkedin" href="#"></a></li>
+							</ul>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis laoreet libero ut rhoncus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec iaculis, turpis vel luctus laoreet, nisi lorem semper urna, in commodo orci nunc in tellus.</p>
+						</div>
+						<br class="clear">
+					</section>
+						<div class="sixteen columns twitter-feed">
+							<div class="twitter-cloud">
+								<div id="twitter_update_list"><ul><li>Twitter feed loading</li></ul></div>
+								<div class="arrow2"></div>
+							</div>
+							<i class="icon-twitter"></i>
+						</div>
+					
+			
+				</div><!-- container -->
+			</div><!-- team -->
+			<!-- END Team --></pre>
+			<span class="subtitle">Team images:</span>
+			<p>Keep the same image width-height ratio in order to dispaly images properly in the circles. Recomended image dimensions are 320px x 320px.</p>
+	</div>
+
+
+	<div id="portfolio" class="wrap">
+		<h3>Portfolio</h3>
+			<pre class="brush: xml">
+			<!-- Portfolio -->
+			<div id="portfolio">		
+				<div class="container">
+					<div class="sixteen columns">
+						<div class="title gray">
+							<h2>Our Work</h2>
+							<h3>Some of our work that we are most proud of</h3>
+						</div>
+					</div>
+					<br class="clear">
+
+					<ul id="filter">
+						<li class="active"><a href="#" class="all">All</a></li>
+						<li><a href="#" class="pictures">Pictures</a></li>
+						<li><a href="#" class="videos">Videos</a></li>
+						<li><a href="#" class="design">Design</a></li>
+					</ul>
+
+					<ul class="ourHolder">
+
+						<li class="four columns port" data-id="id-1" data-type="pictures">
+							<div class="overlay">				
+								<a class="group1" href="images/portfolio/1.jpg" title="Picture Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/1.jpg" alt="">
+								</a>
+							</div>
+							<span>Picture Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-2" data-type="videos">
+							<div class="overlay">					
+								<a class="vimeo" href="http://player.vimeo.com/video/22439234" title="Video Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/2.jpg" alt="">
+								</a>
+							</div>
+							<span>Video Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-3" data-type="design">	
+							<div class="overlay">				
+								<a class="iframe" href="http://themeforest.net/" title="Design Title">						
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/3.jpg" alt="">
+								</a>
+							</div>
+							<span>Design Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-4" data-type="videos">					
+							<div class="overlay">
+								<a class="vimeo" href="http://player.vimeo.com/video/22439234" title="Video Title">						
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/4.jpg" alt="">
+								</a>
+							</div>
+							<span>Video Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-5" data-type="design">					
+							<div class="overlay">
+								<a class="iframe" href="http://themeforest.net/" title="Design Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/5.jpg" alt="">
+								</a>
+							</div>
+							<span>Design Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-6" data-type="pictures">					
+							<div class="overlay">
+								<a class="group1" href="images/portfolio/6.jpg" title="Picture Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/6.jpg" alt="">
+								</a>
+							</div>
+							<span>Picture Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-7" data-type="design">					
+							<div class="overlay">
+								<a class="iframe" href="http://themeforest.net/" title="Design Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/7.jpg" alt="">
+								</a>
+							</div>
+							<span>Design Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-8" data-type="pictures">					
+							<div class="overlay">
+								<a class="group1" href="images/portfolio/8.jpg" title="Picture Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/8.jpg" alt="">
+								</a>
+							</div>
+							<span>Picture Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-9" data-type="videos">					
+							<div class="overlay">
+								<a class="vimeo" href="http://player.vimeo.com/video/22439234" title="Video Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/9.jpg" alt="">
+								</a>
+							</div>
+							<span>Video Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-10" data-type="pictures">					
+							<div class="overlay">
+								<a class="group1" href="images/portfolio/10.jpg" title="Picture Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/10.jpg" alt="">
+								</a>
+							</div>
+							<span>Picture Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-11" data-type="videos">					
+							<div class="overlay">
+								<a class="vimeo" href="http://player.vimeo.com/video/22439234" title="Video Title">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/11.jpg" alt="">
+								</a>
+							</div>
+							<span>Video Title</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+
+						<li class="four columns port" data-id="id-12" data-type="pictures">					
+							<div class="overlay">
+								<a class="group1" href="images/portfolio/12.jpg" title="Picture TItle">
+									<div class="caption"><i class="icon-zoom-in"></i></div>
+									<img class="scale-with-grid rounded" src="images/portfolio/thumbs/12.jpg" alt="">
+								</a>
+							</div>
+							<span>Picture TItle</span>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+						</li>
+					</ul>
+					<br class="clear">
+					
+				</div><!-- container -->
+			</div><!-- portfolio -->
+			<!-- END Portfolio --></pre>
+			<span class="subtitle">Portfolio images:</span>
+			<p>Portfolio thumb images are located in images/portfolio/thumbs. Keep the same image width-height ratio in order to dispaly images properly in the circles. Recomended image dimensions are 220px x 220px.</p>
+	</div>
+
+
+	<div id="contact" class="wrap">
+		<h3>Contact</h3>
+		<span class="subtitle">Update contact form with your email address</span>
+		<p>Open send.php file and update "$adminemail" with your email address.</p>
+		<span class="subtitle">Google map:</span>
+		<p>Google map is iframed. If you want to change it go to Google maps, enter your location, click on link button and pick up the iframed version of the link. Update your google map by replacing only the src path inside index.html file. Leave id="map" inside iframe so map could be responsive.</p>
+			<pre class="brush: xml">
+<!-- Contact -->
+	<div id="contact">
+		<div class="container">
+			<div class="sixteen columns">
+				<div class="title white">
+					<h2>Contact</h2><h3>Let's stay in touch</h3>
+				</div>
+			</div>
+			<br class="clear">
+			<section>
+			<div class="five columns">
+				<div class="contact-details">
+					<h4>Contact details:</h4>
+
+						<span>Address:</span>
+							<p>
+								<i class="icon-road"></i>Street name 123<br>
+								<i class="icon-map-marker"></i>City<br>
+								<i class="icon-globe"></i>Country
+							</p>
+
+						<span>Phone:</span>
+							<p><i class="icon-phone"></i>+123 456 789</p>  
+
+						<span>Email:</span>
+							<p>
+								<i class="icon-envelope-alt"></i>contact@sitename.com<br>
+								<i class="icon-envelope-alt"></i>support@sitename.com
+							</p>
+
+					<ul class="contact-social">
+						<li><a class="facebook" href="#"></a></li>
+						<li><a class="twitter" href="#"></a></li>
+						<li><a class="linkedin" href="#"></a></li>
+						<li><a class="vimeo" href="#"></a></li>
+					</ul>
+				</div><!-- contact-details -->
+			</div><!-- five columns -->
+			<div class="eleven columns">
+				<div class="rounded-map">
+					<iframe src="https://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=40.707909,-74.008514&amp;spn=0.015908,0.042272&amp;t=m&amp;z=15&amp;output=embed" id="map"></iframe>
+				</div>
+			</div>
+			<br class="clear">
+			</section>
+			<div class="contact-form">
+				<form action="index.html" method="post" name="ContactForm" id="ContactForm" >
+					<div class="one-third column">
+						<div class="form-wrap">
+							<label>NAME:</label>
+							<input type="text" maxlength="30" name="uname">
+						</div>
+					</div>
+					<div class="one-third column">
+						<div class="form-wrap">
+							<label>E-MAIL:</label>
+							<input type="text" maxlength="40" name="uemail">
+						</div>
+					</div>
+					<div class="one-third column">
+						<div class="form-wrap">
+							<label>TITLE:</label>
+							<input type="text" maxlength="100" name="title">
+						</div>
+					</div>
+					<div class="sixteen columns">
+						<div class="message-wrap">
+							<label>MESSAGE:</label>
+							<textarea name="message" rows="6" class="message" ></textarea>
+							<div id="message_post"></div>
+							<input type="submit" value="SUBMIT" name="submitf" id="submitf">
+							<input type="reset" value="RESET" name="reset">
+						</div>
+					</div>
+				</form>
+			</div>
+			
+
+		</div><!-- container -->
+	</div><!-- contact -->
+	<!-- END Contact --></pre>
+	</div>
+
+
+	<div id="icons" class="wrap">
+		<h3>Social Icons</h3>
+		<p>Naos comes with 97 social icons as one (sprite) file. All icons are 32px X 32px. "team-socal" class display social icons for the team and "contact-social" class display social icons in the contact details section.</p>
+		<p>Here is the full list of social icons and their positions</p>
+		</p>
+			<pre class="brush: css">
+			facebook 			0 0
+			twitter 		-32px 0
+			linkedin 		-64px 0
+			vimeo 			-96px 0
+			youtube 	   -128px 0
+			tumbrl 		   -160px 0
+			skype 		   -192px 0
+			500px 		   -224px 0
+			about me 	   -256px 0
+			add this 	   -288px 0
+			blip 		   -320px 0
+			bing 		   -352px 0
+			behance		   -384px 0
+			bebo	 	   -416px 0
+			apple      	   -448px 0
+			google +	   -480px 0
+			dribbble	   -512px 0
+			app store	   -544px 0
+			aol		 	   -576px 0
+			amazon	 	   -608px 0
+			daytum 		   -640px 0
+			coroflot	   -672px 0
+			drupal		   -704px 0
+			digg alt	   -736px 0
+			digg      	   -768px 0
+			deviant art	   -800px 0
+			designfloat	   -832px 0
+			design bump	   -864px 0
+			delicious 	   -896px 0
+			blogger	 	   -928px 0
+			friendsfeed	   -960px 0
+			foursquare	   -992px 0
+			forrst		  -1024px 0
+			foodspotting  -1056px 0
+			flickr	 	  -1088px 0
+			feed burner	  -1120px 0
+			etsy		  -1152px 0
+			ember app 	  -1184px 0
+			email		  -1216px 0
+			ebay		  -1248px 0
+			google talk	  -1280px 0
+			google buzz	  -1312px 0
+			github		  -1344px 0
+			gdgt	 	  -1376px 0
+			friendstar	  -1408px 0
+			hyves		  -1440px 0
+			hart	 	  -1474px 0
+			grooveshark	  -1504px 0
+			gowalla pin	  -1536px 0
+			gowalla		  -1568px 0
+			identica	  -1600px 0
+			icq			  -1632px 0
+			icondock 	  -1664px 0
+			mobileme	  -1696px 0
+			mixx		  -1728px 0
+			metacafe 	  -1760px 0
+			meetup		  -1792px 0
+			last.fm		  -1824px 0
+			itune		  -1856px 0
+			imessage	  -1888px 0
+			posterous	  -1920px 0
+			podcast	 	  -1952px 0
+			pinterest	  -1984px 0
+			picasa		  -2016px 0
+			photobucket	  -2048px 0
+			paypal		  -2080px 0
+			newsvine	  -2112px 0
+			myspace		  -2144px 0
+			msn			  -2176px 0
+			mr wong		  -2208px 0
+			smugmug	 	  -2240px 0
+			slideshare	  -2272px 0
+			slashdot	  -2304px 0
+			share this 	  -2336px 0
+			scribd		  -2368px 0
+			rss 		  -2400px 0
+			retweet		  -2432px 0
+			reddit		  -2464px 0
+			quora 		  -2496px 0
+			qik 	 	  -2528px 0
+			squidoo		  -2560px 0
+			spotify		  -2592px 0
+			sound cloud	  -2624px 0
+			w3			  -2656px 0
+			virb		  -2688px 0
+			viddler		  -2720px 0
+			technorati	  -2752px 0
+			stumbleupon	  -2784px 0
+			star	 	  -2816px 0
+			stackoverflow -2848px 0
+			yahoo		  -2880px 0
+			xing	 	  -2912px 0
+			wordpress	  -2944px 0
+			windows		  -2976px 0
+			wikipedia	  -3008px 0
+			yelp	 	  -3040px 0
+			yahoo buzz	  -3072px 0</pre>
+	</div>
+
+
+	<div id="credits" class="wrap">
+		<h3>Credits</h3>
+		<span class="subtitle">Naos was created with the help of:</span>
+		<p>
+			<a href="http://getskeleton.com">Skeleton</a><br>
+			<a href="http://www.woothemes.com/flexslider/">Flex Slider</a><br>
+			<a href="http://fortawesome.github.com/Font-Awesome/">Font Awesome</a><br>
+			<a href="http://www.google.com/fonts/">Google Web Font</a><br>
+			<a href="http://www.jacklmoore.com/colorbox/">Colorbox</a><br>
+			<a href="http://gsgd.co.uk/sandbox/jquery/easing/">jQuery Easing</a><br>
+			<a href="http://razorjack.net/quicksand/">Quicksand</a><br>
+			<a href="https://github.com/flesler/jquery.scrollTo">ScrollTo</a><br>
+			<a href="https://github.com/davist11/jQuery-One-Page-Nav">Jquery One Page Navigation</a><br>
+			<a href="http://areaaperta.com/nicescroll">Nice Scroll</a><br>
+			<a href="https://github.com/coryschires/quote-rotator">Quote Rotator</a><br>
+			<a href="https://github.com/imakewebthings/jquery-waypoints">Waypoints</a><br>
+			<a href="https://github.com/lukaszfiszer/selectnav.js">SelectNav</a>
+		</p>
+	</div>
+
+		</div><!-- content-wraper -->
+	</div><!-- content -->
+
+	<script type="text/javascript">
+		SyntaxHighlighter.all()
+	</script>
+
+</body>
+</html>

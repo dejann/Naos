@@ -1,0 +1,12 @@
+body { margin: 0; font: 14px "Verdana", sans-serif; }
+h1 { margin: 20px 10px; }
+h3 { border-bottom: 1px solid #000; font-size: 20px; }
+p { margin: 0 0 10px 0; line-height: 18px; }
+.menu { float: left; width: 30%; height: 100%; position: fixed; background: #12a5f4; }
+nav { float: right; margin: 100px 20px 0 0; color: #FFF; }
+nav ul { list-style: none; }
+nav ul li a { color: #FFF; text-decoration: none; }
+#content { float: right; width: 68%; }
+#content-wraper { max-width: 900px; }
+.wrap { background: #DDD; padding: 10px; margin: 20px 10px; }
+.subtitle { font-weight: bold; margin: 0px; line-height: 20px; }
